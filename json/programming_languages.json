@@ -1,0 +1,109 @@
+{
+    "programming_languages": [
+        {
+            "id": 1,
+            "name": "Python",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/python.png",
+            "released": "1991",
+            "extension": ".py"
+        },
+        {
+            "id": 2,
+            "name": "JavaScript",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/javascript.png",
+            "released": "1995",
+            "extension": ".js"
+        },
+        {
+            "id": 3,
+            "name": "Java",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/java.png",
+            "released": "1995",
+            "extension": ".java"
+        },
+        {
+            "id": 4,
+            "name": "Dart",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/dart.png",
+            "released": "2011",
+            "extension": ".dart"
+        },
+        {
+            "id": 5,
+            "name": "Kotlin",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/kotlin.png",
+            "released": "2016",
+            "extension": ".kt"
+        },
+        {
+            "id": 6,
+            "name": "C#",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/csharp.png",
+            "released": "2001",
+            "extension": ".cs"
+        },
+        {
+            "id": 7,
+            "name": "C",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/c.png",
+            "released": "1978",
+            "extension": ".c"
+        },
+        {
+            "id": 8,
+            "name": "C++",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/cpp.png",
+            "released": "1985",
+            "extension": ".cpp"
+        },
+        {
+            "id": 9,
+            "name": "Go",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/go.png",
+            "released": "2012",
+            "extension": ".go"
+        },
+        {
+            "id": 10,
+            "name": "R",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/r.png",
+            "released": "1995",
+            "extension": ".r"
+        },
+        {
+            "id": 11,
+            "name": "Swift",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/swift.png",
+            "released": "2014",
+            "extension": ".swift"
+        },
+        {
+            "id": 12,
+            "name": "PHP",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/php.png",
+            "released": "1994",
+            "extension": ".php"
+        },
+        {
+            "id": 13,
+            "name": "Ruby",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/ruby.png",
+            "released": "1995",
+            "extension": ".rb"
+        },
+        {
+            "id": 14,
+            "name": "Scala",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/scala.png",
+            "released": "2004",
+            "extension": ".scala"
+        },
+        {
+            "id": 15,
+            "name": "TypeScript",
+            "logo": "https://dileepabandara.github.io/public-images/programming-languages/typescript.png",
+            "released": "2012",
+            "extension": ".ts"
+        }
+    ]
+}

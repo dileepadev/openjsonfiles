@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "userId": 1,
+      "firstName": "UserA",
+      "lastName": "SampleA",
+      "emailAddress": "usersample.a@openjsonfiles"
+    },
+    {
+      "userId": 2,
+      "firstName": "UserB",
+      "lastName": "SampleB",
+      "emailAddress": "usersample.b@openjsonfiles"
+    },
+    {
+      "userId": 3,
+      "firstName": "UserC",
+      "lastName": "SampleC",
+      "emailAddress": "usersample.c@openjsonfiles"
+    },
+    {
+      "userId": 4,
+      "firstName": "UserD",
+      "lastName": "SampleD",
+      "emailAddress": "usersample.d@openjsonfiles"
+    },
+    {
+      "userId": 5,
+      "firstName": "UserE",
+      "lastName": "SampleE",
+      "emailAddress": "usersample.e@openjsonfiles"
+    }
+  ]
+}

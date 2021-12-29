@@ -1,0 +1,216 @@
+/* ---------------------------- OTHERS ---------------------------- */
+
+#preloader {
+  background-color: #343a40;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+
+.spinner-grow {
+  display: block;
+  position: fixed;
+  top: 50%;
+  right: 50%;
+  color: #08e2be !important;
+}
+
+#link-to-other-url a:visited {
+  color: #05ac90;
+}
+
+#link-to-other-url a:hover {
+  color: #888888;
+  text-decoration: none;
+}
+
+.btn-default {
+  background-color: #05ac90 !important;
+  color: #ffffff !important;
+}
+
+.btn-default:hover {
+  background-color: #05856f !important;
+  color: #ffffff !important;
+}
+
+/* ---------------------------- NAVBAR ---------------------------- */
+
+.navbar-brand {
+  font-size: 1.8em !important;
+  font-weight: 500 !important;
+}
+
+/* ---------------------------- BODY 1 ---------------------------- */
+
+#body1 {
+  margin-top: 20px;
+}
+
+#about-section {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+/* ---------------------------- BODY 2 ---------------------------- */
+
+#body2 {
+  margin-top: 80px;
+}
+
+#card-list {
+  margin-top: 50px;
+}
+
+.card {
+  margin-bottom: 20px;
+  width: 18rem;
+}
+
+.card-title {
+  font-weight: 700;
+}
+
+.card-thumbnail {
+  border-radius: 10px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-horizontal {
+  display: flex;
+  flex: 1 1 auto;
+}
+
+.jsonfile-url {
+  padding-bottom: 20px;
+}
+
+/* ---------------------------- BODY 3 ---------------------------- */
+
+#body3 {
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+#thanks-section {
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+/* --------------------------- SNACKBAR --------------------------- */
+
+#snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -125px;
+  background-color: #06806b;
+  color: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+  font-weight: 700;
+}
+
+#snackbar.show {
+  visibility: visible;
+  -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@keyframes fadein {
+  from {
+    bottom: 0;
+    opacity: 0;
+  }
+  to {
+    bottom: 30px;
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+@keyframes fadeout {
+  from {
+    bottom: 30px;
+    opacity: 1;
+  }
+  to {
+    bottom: 0;
+    opacity: 0;
+  }
+}
+
+/* ---------------------------- FOOTER ---------------------------- */
+
+#footer {
+  background: #343a40;
+  font-size: 16px;
+  color: #cecdcd;
+  text-align: center;
+  padding: 0px;
+  padding-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.footer-image {
+  width: 150px;
+  padding-bottom: 20px;
+}
+
+.category-line {
+  width: 120px;
+  height: 2px;
+  background-color: #08e2be;
+}
+
+.footer-links {
+  padding-left: 0;
+  list-style: none;
+}
+.footer-links a {
+  color: #a1a1a1;
+}
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+  color: #08e2be;
+  text-decoration: none;
+}
+
+.copyright-line {
+  background-color: #55595c;
+}
+
+#copyright-text {
+  color: #a1a1a1;
+  pointer-events: none;
+}

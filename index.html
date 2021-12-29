@@ -2,23 +2,217 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Dileepa Bandara">
-    <meta name="description" content="Open JSON Files | Developed by Dileepa Bandara | ©dileepabandara.dev">
-    <title>Open JSON Files</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Open Json Files">
+  <meta name="keywords" content="Dileepa Bandara, dileepabandara.dev">
+  <meta name="author" content="Dileepa Bandara">
+  <title>Open Json Files</title>
+  <link rel="shortcut icon" type="image/png" href="./images/logo.png" />
+  <!----------------------------- Local CSS ----------------------------->
+  <link rel="stylesheet" href="./css/style.css" />
+  <!-------------------------- Bootstrap 4.6.1 -------------------------->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+  <!------------------------- Local JavaScript -------------------------->
+  <script src="./js/script.js"></script>
 </head>
 
 <body>
-    <div align="center">
-        <h1 style="margin-top: 50px;">Open JSON Files</h1>
-        <p style="margin-top: 20px; font-size: 22px;">This website is being updated.
-            <br> I will update as soon as possible.
-            <br> Thanks for visiting.
-            <br> Sorry for the inconvenience.
-        </p>
+
+  <!--  ============================================ Preloader =============================================  -->
+  <div id="preloader">
+    <div class="spinner-grow text-info" role="status"></div>
+  </div>
+
+  <!--  ============================================== NAVBAR ==============================================  -->
+
+  <section id="navbar">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+      <div class="container-fluid p-0">
+        <a class="navbar-brand" href="./index.html">
+          <img src="./images/logo_circle.png" alt="" width="50" height="50" class="d-inline-block align-text-center">
+          Open JSON Files
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+          aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="https://github.com/dileepabandara/openjsonfiles" target="_blank"
+                rel="noopener noreferrer">
+                <img src="./images/icon_github.png" height="36px" width="36px"> &nbsp;
+                Source on GitHub
+                <img src="./images/icon_external_link.png" height="16px" width="16px">
+              </a>
+            </li>
+          </ul>
+          <!-- <button class="btn btn-success" type="submit">View on GitHub</button> -->
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!--  ============================================== BODY 1 ==============================================  -->
+
+  <section id="body1">
+    <h2 class="text-center">
+      <b>About</b>
+    </h2>
+    <div id="about-section">
+      <p class="text-center">
+        This website contains free JSON files.
+        It's free for commercial or non-commercial usage.
+        Anyone on this site can use these JSON files freely without any restrictions,
+        and the project has been developed as open source and for educational purposes.
+        The project is available on GitHub. Please let me know if anyone would like to contribute.
+      </p>
+      <p class="text-center" id="link-to-other-url">
+        ❤️ Built with <a href="https://getbootstrap.com">Bootstrap</a>
+        and <a href="https://pages.github.com">GitHub Pages</a>
+      </p>
     </div>
+  </section>
+
+  <!--  ============================================== BODY 2 ==============================================  -->
+
+  <section id="body2">
+    <h2 class="text-center">
+      <b>Available JSON Files</b>
+    </h2>
+
+    <div class="container" id="card-list">
+      <div class="row">
+        <div class="col order-first">
+          <div class="card">
+            <img src="https://dileepabandara.github.io/public-images/numbers/numbers.png" class="card-thumbnail" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Numbers</h5>
+              <p class="card-text">This JSON file includes numbers from 0 to 9 with an id, title, description and image.
+              </p>
+              <div class="jsonfile-url" id="link-to-other-url">
+                <a href="./json/numbers.json" target="_blank" rel="noopener noreferrer">numbers.json</a>
+              </div>
+              <a class="btn btn-dark" href="./json/numbers.json" role="button">View</a>
+              <button type="button" class="btn btn-default" onclick="copyToClipBoard('numbers')">Copy URL</button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img src="https://dileepabandara.github.io/public-images/users/users.png" class="card-thumbnail" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Users</h5>
+              <p class="card-text">User details such as user id, first name, last name, and email address are examples.
+              </p>
+              <div class="jsonfile-url" id="link-to-other-url">
+                <a href="./json/users.json" target="_blank" rel="noopener noreferrer">users.json</a>
+              </div>
+              <a class="btn btn-dark" href="./json/users.json" role="button">View</a>
+              <button type="button" class="btn btn-default" onclick="copyToClipBoard('users')">Copy URL</button>
+            </div>
+          </div>
+        </div>
+        <div class="col order-last">
+          <div class="card">
+            <img src="https://dileepabandara.github.io/public-images/programming-languages/programming_languages.png" class="card-thumbnail" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Programming Languages</h5>
+              <p class="card-text">It's about programming languages with an id, name, logo, released year, and file
+                extension.</p>
+              <div class="jsonfile-url" id="link-to-other-url">
+                <a href="./json/programming_languages.json" target="_blank"
+                  rel="noopener noreferrer">programming_languages.json</a>
+              </div>
+              <a class="btn btn-dark" href="./json/programming_languages.json" role="button">View</a>
+              <button type="button" class="btn btn-default" onclick="copyToClipBoard('programming_languages')">Copy
+                URL</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="snackbar">Copied to clipboard</div>
+  </section>
+
+  <!--  ============================================== BODY 3 ==============================================  -->
+
+  <section id="body3">
+    <h2 class="text-center">
+      <b>Thanks</b> ❤️
+    </h2>
+    <div id="thanks-section">
+      <p class="text-center">
+        Thanks to everyone who supported
+      </p>
+    </div>
+  </section>
+
+  <!--  ============================================== Footer ==============================================  -->
+
+  <section id="footer">
+    <footer class="page-footer font-small mdb-color pt-1">
+      <div class="container text-center text-md-left">
+        <!-- ---------------------------  Footer Links --------------------------- -->
+        <div class="row text-center text-md-left mt-3 pb-3">
+          <!-- --------------------------- Grid column 1 --------------------------- -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <img class="footer-image" src="./images/logo_circle.png" />
+            <p>The <b>Open JSON Files</b> website contains free JSON files.
+              It's free for commercial or non-commercial usage.</p>
+          </div>
+          <!-- --------------------------- Grid column 2 --------------------------- -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-5">
+          </div>
+          <!-- --------------------------- Grid column 3 --------------------------- -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-5">
+            <h6 class="text-uppercase mb-4 font-weight-bold">About</h6>
+            <hr class="category-line accent-3 mb-4 mt-0 d-inline-block mx-auto" />
+            <ul class="footer-links">
+              <li><a href="#body2">JSON Files</a></li>
+              <li><a href="https://github.com/dileepabandara/openjsonfiles/blob/main/LICENSE">MIT License</a></li>
+              <li><a href="https://github.com/dileepabandara/openjsonfiles">Repository</a></li>
+            </ul>
+          </div>
+          <!-- --------------------------- Grid column 4 --------------------------- -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-5">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Contact</h6>
+            <hr class="category-line accent-3 mb-4 mt-0 d-inline-block mx-auto" />
+            <ul class="footer-links">
+              <li><a href="https://twitter.com/dileepa_bandara">@dileepa_bandara</a></li>
+              <li><a href="https://github.com/dileepabandara">github.com/dileepabandara</a></li>
+              <li><a href="mailto:contact.dileepabandara@gmail.com">contact.dileepabandara@gmail.com</li>
+              <li><a href="https://dileepabandara.github.io/">dileepabandara.github.io</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- --------------------------- Copyright --------------------------- -->
+        <hr class="copyright-line" />
+        <div class="text-center">
+          <h6 id="copyright-text">Developed by Dileepa Bandara</h6>
+          <p id="copyright-text">© 2021 dileepabandara.dev</p>
+        </div>
+      </div>
+    </footer>
+  </section>
+
+  <!-- -----------------------------  Preloader ---------------------------- -->
+  <script>
+    var loader = document.getElementById("preloader");
+    window.addEventListener("load", function () {
+      loader.style.display = "none";
+    });
+  </script>
+
 </body>
 
 </html>

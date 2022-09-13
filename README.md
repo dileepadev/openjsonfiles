@@ -11,6 +11,8 @@
 
 This website contains free JSON files. It's free for commercial or non-commercial usage. Anyone on this site can use these JSON files freely without any restrictions, and the project has been developed as open source and for educational purposes. The project is available on GitHub. Please let me know if anyone would like to contribute.
 
+![Screenshot](https://user-images.githubusercontent.com/80202913/189808021-129f5691-108c-45cd-8e5c-3f6104b74c73.png)
+
 ## 🎬 Release Status
 
 Version - Initial Release 1.0  
